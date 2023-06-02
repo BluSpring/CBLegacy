@@ -1,24 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "kilt",
+  "id": "cb-legacy",
   "version": "${version}",
-  "name": "Kilt",
-  "description": "Allows the loading of Forge mods in the Fabric ecosystem. Very experimental.",
+  "name": "Chisels & Bits: Legacy",
+  "description": "A mod about sculpting, decorating and aesthetics. A direct update of the old Chisels & Bits by AlgorithmX2.",
   "authors": [
-    "BluSpring"
+    "BluSpring",
+    "AlgorithmX2"
   ],
   "contact": {
-    "repo": "https://github.com/BluSpring/Kilt"
+    "repo": "https://github.com/BluSpring/CBLegacy"
   },
   "license": "LGPL-3.0",
   "icon": "assets/chiselandbits/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "mod.chiselandbits.ChiselAndBitsClient"
+      "xyz.bluspring.cblegacy.client.ChiselsAndBitsClient"
     ],
     "main": [
-      "mod.chiselandbits.ChiselAndBits"
+      "xyz.bluspring.cblegacy.core.ChiselsAndBits"
     ]
   },
   "mixins": [

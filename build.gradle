@@ -58,6 +58,8 @@ dependencies {
     minecraft "com.mojang:minecraft:${mc_version}"
     mappings loom.officialMojangMappings()
 
+    implementation "com.google.code.findbugs:jsr305:3.0.0"
+
     modImplementation "net.fabricmc:fabric-loader:${loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
 
